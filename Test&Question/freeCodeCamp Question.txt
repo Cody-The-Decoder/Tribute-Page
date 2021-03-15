@@ -1,0 +1,15 @@
+Front-end Sticky Title Bar conundrum:
+
+Hey guys, having a bit of a problem trying to make a sticky title for the tribute page, and as well leading into a bigger question 
+about css conflicts and how to avoid them.
+
+
+
+In the attempt to make my h1 title sticky, I had taken the instructions from w3schools (https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
+and applied it to the approprite div (h1 id="Title"). After trying it, the Javascript didn't seem to be applied. I noticed through the google dev
+tools that when the ".sticky" class is applied, the new class declarations were cancelled out. I presume this is because of the previous delcarations 
+on the h1 div, which take priority over the ".sticky" class added by the Script.
+
+Is there any specific way of avoiding this conflict in the CSS when adding classes with Javascript? Or am I thinking about this whole thing wrong, and there's
+something else I should be doing to achieve this effect, thanks.
+

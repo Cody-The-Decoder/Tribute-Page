@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="Tribute Test.css" media="screen"/>
+<main>
+<body>
+    <header>
+      <h1 id="title">Joshua Tomar</h1>
+        <div id ="img-div">
+            <img>
+        </div>
+    </header>
+    <div id="tribute-background"></div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("title");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script> 
+</body>
+</main>    
+</html>

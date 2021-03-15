@@ -1,0 +1,43 @@
+html {
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+header {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    
+}
+
+
+#title {
+    background-color: red; 
+    position: relative;
+    top: 5vh;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+}
+#tribute-background {
+    position: relative;
+    top: 60vh;
+    background-color: #0FA4CF;
+    overflow: auto;
+    height: 100vh;
+    width: auto;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
